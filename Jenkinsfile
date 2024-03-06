@@ -13,7 +13,7 @@ pipeline {
             steps {
                 script {
                     build 'PES1UG21CS590-1'
-                    sh 'g++ main.cpp -o output'
+                    sh 'g++ main1.cpp -o output'
                 }
             }
         }
